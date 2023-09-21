@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_dlstlast.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: theonewhoknew <theonewhoknew@student.42    +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/09 10:14:11 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/22 12:42:19 by theonewhokn      ###   ########.fr       */
+/*   Created: 2023/09/21 17:05:03 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:05:05 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

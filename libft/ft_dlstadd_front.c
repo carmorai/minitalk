@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_dlstadd_front.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: theonewhoknew <theonewhoknew@student.42    +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/09 10:15:03 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/22 18:25:36 by theonewhokn      ###   ########.fr       */
+/*   Created: 2023/09/21 17:04:56 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:04:58 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

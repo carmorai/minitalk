@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: theonewhoknew <theonewhoknew@student.42    +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/03 12:05:15 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/04 13:34:53 by theonewhokn      ###   ########.fr       */
+/*   Created: 2023/09/21 17:07:41 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:24:40 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,15 +38,3 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-/*
-#include <stdio.h>
-int main(void)
-{
-    char *src = "Hola tio";
-    char dest[20];
-
-    ft_memmove(dest, src, 9);
-    //memset(str, 'A', 3);
-    printf("%s", dest);
-}
-*/

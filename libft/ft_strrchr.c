@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dtome-pe <dtome-pe@student.42.fr>          +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/03 10:28:09 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/10 11:07:48 by dtome-pe         ###   ########.fr       */
+/*   Created: 2023/09/21 17:10:18 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:25:47 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,9 +39,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (0);
 }
-/*
-int main(void)
-{
-	printf("%p", ft_strrchr("teste", 1125));
-}
-*/

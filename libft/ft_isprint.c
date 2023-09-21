@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: theonewhoknew <theonewhoknew@student.42    +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/03 09:01:17 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/04 13:32:28 by theonewhokn      ###   ########.fr       */
+/*   Created: 2023/09/21 17:05:45 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:24:01 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,15 +16,3 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
-/*
-
-#include <stdio.h>
-#include <ctype.h>
-
-int main(void)
-{
-    char c =  '\n';
-
-    printf("%d", ft_isprint(c));
-}
-*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: theonewhoknew <theonewhoknew@student.42    +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/03 09:04:33 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/15 23:45:23 by theonewhokn      ###   ########.fr       */
+/*   Created: 2023/09/21 17:12:09 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:26:22 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,3 @@ size_t	ft_strlen(const char *s)
 	}
 	return (c);
 }
-/*
-int main(void)
-{
-    char *str = "Hello boys and girls!";
-
-    printf("%ld", ft_strlen(str));
-}
-*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dtome-pe <dtome-pe@student.42.fr>          +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/03 12:10:18 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/10 08:41:18 by dtome-pe         ###   ########.fr       */
+/*   Created: 2023/09/21 17:04:31 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:23:29 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,11 +29,3 @@ void	*ft_calloc(size_t count, size_t size)
 	ft_bzero(ptr, count * size);
 	return (ptr);
 }
-/*
-int main(void)
-{
-	printf("%p", ft_calloc(0, 0));
-	//printf("%p", calloc(0, 0));
-
-}
-*/

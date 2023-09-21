@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dtome-pe <dtome-pe@student.42.fr>          +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/03 10:37:06 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/09 12:52:25 by dtome-pe         ###   ########.fr       */
+/*   Created: 2023/09/21 17:10:07 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:25:37 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,13 +25,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-/*
-int main(void)
-{
-		char str[] = "Heaa";
-		char str_1[] = "Heuu";
-
-		printf("%d",ft_strncmp(str,str_1, 3));
-
-}
-*/

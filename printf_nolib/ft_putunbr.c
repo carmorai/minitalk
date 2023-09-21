@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putunbr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: theonewhoknew <theonewhoknew@student.42    +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/16 09:27:07 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/17 11:10:43 by theonewhokn      ###   ########.fr       */
+/*   Created: 2023/09/21 17:12:04 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:12:05 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_dlstnew.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: theonewhoknew <theonewhoknew@student.42    +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/09 10:12:28 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/23 11:14:29 by theonewhokn      ###   ########.fr       */
+/*   Created: 2023/09/21 17:05:11 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:23:42 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,16 +26,3 @@ t_dlist	*ft_dlstnew(int content)
 	node->next = NULL;
 	return (node);
 }
-/*
-int main(void)
-{   
-    t_list *node;
-    int x;
-
-    x = 5;
-    node = ft_lstnew(&x);
-    printf("node content is %d", *(int *)(node->content));
-    free (node);
-    
-}
-*/

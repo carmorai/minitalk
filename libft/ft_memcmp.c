@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: theonewhoknew <theonewhoknew@student.42    +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/03 12:06:10 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/04 13:34:21 by theonewhokn      ###   ########.fr       */
+/*   Created: 2023/09/21 17:07:28 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:24:33 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,17 +26,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-/*
-#include <stdio.h>
-int main(void)
-{ 
-		char str[] = "Heaa";
-		char str_1[] = "Heuu";
-		
-		int arr1[] = {1,2};
-		int arr2[] = {1,3};
-
-		printf("%d",ft_memcmp(arr1,arr2, 2 * sizeof (int)));
-
-}
-*/

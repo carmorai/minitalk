@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dtome-pe <dtome-pe@student.42.fr>          +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/09 09:57:04 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/09 11:10:09 by dtome-pe         ###   ########.fr       */
+/*   Created: 2023/09/21 17:09:09 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:25:07 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,29 +105,3 @@ char	**ft_split(char const *s, char c)
 	strs[n] = NULL;
 	return (strs);
 }
-/*
-#include <stdio.h>
-
-int main(void)
-{
-    const char *str = ",,,,Hola,que,tal,,,,si,no,,,,quizas";
-    char c = ',';
-    char **strs;
-    int i = 0;
-
-    strs = ft_split(str, c);
-   
-    while (strs[i] != NULL)
-    {
-        printf("%s\n", strs[i]);
-        i++;
-    }
-    i = 0;
-    while (strs[i] != NULL)
-    {
-        free(strs[i]);
-        i++;
-    }
-    free (strs);
-}
-*/

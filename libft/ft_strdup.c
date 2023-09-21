@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: theonewhoknew <theonewhoknew@student.42    +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/03 12:29:42 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/04 13:47:27 by theonewhokn      ###   ########.fr       */
+/*   Created: 2023/09/21 17:09:20 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:25:14 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,17 +23,3 @@ char	*ft_strdup(const char *s1)
 	ft_strlcpy(dup, s1, ft_strlen(s1) + 1);
 	return (dup);
 }
-/*
-#include <stdio.h>
-
-int main(void)
-{
-    char *str;
-	char *dup;
-
-    str = "Hola";
-    dup = ft_strdup(str);
-	printf("%s", dup);
-   
-}
-*/

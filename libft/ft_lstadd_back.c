@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dtome-pe <dtome-pe@student.42.fr>          +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/09 10:15:24 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/10 12:38:03 by dtome-pe         ###   ########.fr       */
+/*   Created: 2023/09/21 17:05:59 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:24:11 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,11 +28,3 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 	curr = ft_lstlast(*lst);
 	curr->next = new;
 }
-/*
-int main(void)
-{   
-   
-    
-}
-
-*/

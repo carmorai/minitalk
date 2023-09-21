@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dtome-pe <dtome-pe@student.42.fr>          +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/09 10:07:55 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/09 10:10:01 by dtome-pe         ###   ########.fr       */
+/*   Created: 2023/09/21 17:10:23 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:25:52 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,15 +71,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	trim[j] = '\0';
 	return (trim);
 }
-/*
-#include <stdio.h>
-
-int main(void)
-{
-    char *trim;
-    char *set = " .";
-
-    trim = ft_strtrim("  ..   hola   ..  ", set);
-    printf("%s", trim);
-}
-*/

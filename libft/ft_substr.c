@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dtome-pe <dtome-pe@student.42.fr>          +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/09 10:07:12 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/11 08:28:14 by dtome-pe         ###   ########.fr       */
+/*   Created: 2023/09/21 17:10:28 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:25:56 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,10 +68,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	substr[i] = '\0';
 	return (substr);
 }
-/*
-int main(void)
-{
-	
-	printf("%s", ft_substr("hola", 0, 18446744073709551615));
-}
-*/

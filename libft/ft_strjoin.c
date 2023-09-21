@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dtome-pe <dtome-pe@student.42.fr>          +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/09 09:34:00 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/09 09:35:20 by dtome-pe         ###   ########.fr       */
+/*   Created: 2023/09/21 17:09:37 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:25:19 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,14 +54,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	join[i] = '\0';
 	return (join);
 }
-/*
-int main(void)
-{
-    char *s1 = "Hola";
-    char *s2 = "Adios";
-    char *join;
-
-    join = ft_strjoin(s1, s2);
-    printf("%s", join);   
-}
-*/

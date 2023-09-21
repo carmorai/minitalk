@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dtome-pe <dtome-pe@student.42.fr>          +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/03 12:05:01 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/10 10:00:42 by dtome-pe         ###   ########.fr       */
+/*   Created: 2023/09/21 17:10:14 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:25:43 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,13 +58,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
-/*
-#include <string.h>
-
-int main(void)
-{
-	printf("%s", ft_strnstr("lorem ipsum dolor sit amet", "dolor", 0));
-	//printf("%s", strnstr("lorem ipsum dolor sit amet", "dolor", 0));
-	return (0);
-}
-*/

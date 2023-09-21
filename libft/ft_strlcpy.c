@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dtome-pe <dtome-pe@student.42.fr>          +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/03 09:34:27 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/03 13:52:05 by dtome-pe         ###   ########.fr       */
+/*   Created: 2023/09/21 17:09:52 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:25:27 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,16 +34,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	}
 	return (c);
 }
-/*
-int main(void) 
-{
-	char src[] = "Hello";
-	char dest[] = "Goodbye";
-	unsigned int size;
-
-	size = 5;
-
-	printf("%u \n", ft_strlcpy(dest, src, size));
-	printf("%lu", strlcpy(dest, src, size));
-}
-*/

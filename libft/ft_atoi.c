@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: theonewhoknew <theonewhoknew@student.42    +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/03 12:05:30 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/04 13:33:11 by theonewhokn      ###   ########.fr       */
+/*   Created: 2023/09/21 17:04:10 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:20:10 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,14 +46,3 @@ int	ft_atoi(const char *str)
 		result *= -1;
 	return (result);
 }
-/*
-#include <stdio.h>
-
-int main(void)
-{
-    int n;
-    char str[] = "+12345";
-    n = ft_atoi(str);
-    printf("%d", n);
-}
-*/

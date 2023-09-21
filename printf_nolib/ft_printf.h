@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: theonewhoknew <theonewhoknew@student.42    +#+  +:+       +#+        */
+/*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/16 09:28:52 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/17 11:08:31 by theonewhokn      ###   ########.fr       */
+/*   Created: 2023/09/21 17:11:30 by carmoren          #+#    #+#             */
+/*   Updated: 2023/09/21 17:11:31 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

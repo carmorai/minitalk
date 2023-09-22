@@ -6,14 +6,14 @@
 /*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/21 17:08:03 by carmoren          #+#    #+#             */
-/*   Updated: 2023/09/21 17:08:04 by carmoren         ###   ########.fr       */
+/*   Updated: 2023/09/22 12:59:22 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
 size_t	ft_putchar(char c)
-{	
+{
 	size_t	n;
 
 	n = 0;

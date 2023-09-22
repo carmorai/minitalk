@@ -6,7 +6,7 @@
 /*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/21 17:11:19 by carmoren          #+#    #+#             */
-/*   Updated: 2023/09/21 17:11:20 by carmoren         ###   ########.fr       */
+/*   Updated: 2023/09/22 13:48:58 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,10 @@
 #include <stdarg.h>
 
 size_t	check_conversions(va_list args, char const *str)
-{	
+{
 	++str;
 	while (*str)
-	{	
+	{
 		if (*str == 'c')
 			return (ft_putchar(va_arg(args, int)));
 		else if (*str == 's')
@@ -32,19 +32,19 @@ size_t	check_conversions(va_list args, char const *str)
 		else if (*str == 'u')
 			return (ft_putunbr(va_arg(args, unsigned int)));
 		else if (*str == 'x')
-			return (ft_puthexnbr(va_arg(args, unsigned int), "0123456789abcdef"));
+			return (ft_puthex(va_arg(args, unsigned int), "0123456789abcdef"));
 		else if (*str == 'X')
-			return (ft_puthexnbr(va_arg(args, unsigned int), "0123456789ABCDEF"));
+			return (ft_puthex(va_arg(args, unsigned int), "0123456789ABCDEF"));
 		else if (*str == '%')
 			return (ft_putchar('%'));
 		else
 			return (-1);
-	}	
+	}
 	return (0);
 }
 
 int	ft_printf(char const *str, ...)
-{	
+{
 	size_t	n;
 	va_list	args;
 
@@ -53,7 +53,7 @@ int	ft_printf(char const *str, ...)
 		return (0);
 	va_start(args, str);
 	while (*str)
-	{	
+	{
 		if (*str == '%')
 		{
 			n += check_conversions(args, str);

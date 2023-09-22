@@ -6,16 +6,16 @@
 /*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/21 17:11:53 by carmoren          #+#    #+#             */
-/*   Updated: 2023/09/21 17:11:54 by carmoren         ###   ########.fr       */
+/*   Updated: 2023/09/22 13:43:29 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 #include <stdlib.h>
 
-static size_t ft_num_len(long number)
-{	
-	size_t len;
+static size_t	ft_num_len(long number)
+{
+	size_t	len;
 
 	len = 1;
 	if (number < 0)
@@ -33,30 +33,29 @@ static size_t ft_num_len(long number)
 
 size_t	ft_putnbr(int n)
 {
-	long	number;
-	size_t	count;
+	char	*str;
+	long	num;
 	size_t	len;
-	char *str;
 
-	number = (long) n;
-	len = ft_num_len(number);
-	str = (char *)malloc(sizeof (char) * (len + 1));
-	str[len] = '\0';
-	if (number < 0)
+	num = (long)n;
+	len = ft_num_len(num);
+	str = (char *)malloc(len + 1);
+	if (!str)
+		return (0);
+	str[len--] = '\0';
+	if (num < 0)
 	{
 		str[0] = '-';
-		number *= -1;
+		num *= -1;
 	}
-	if (number == 0)
-		str[len - 1] = '0';
-	while (number > 0)
+	if (num == 0)
+		str[len] = '0';
+	while (num > 0)
 	{
-		str[len - 1] = number % 10 + '0';
-		number /= 10;
-		len--;
+		str[len--] = (num % 10) + '0';
+		num /= 10;
 	}
-	count = ft_putstr(str);
-	free (str);
-	str = NULL;
-	return (count);
+	len = ft_putstr(str);
+	free(str);
+	return (len);
 }

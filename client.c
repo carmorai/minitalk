@@ -6,7 +6,7 @@
 /*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/21 17:03:35 by carmoren          #+#    #+#             */
-/*   Updated: 2023/09/22 10:20:05 by carmoren         ###   ########.fr       */
+/*   Updated: 2023/09/22 11:09:58 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 #include <unistd.h>
 
 int	*to_binary(int number)
-{	
+{
 	int	c;
 	int	*binary;
 	int	i;
@@ -63,7 +63,7 @@ void	send_signals(int *binary, char *pid, int count)
 }
 
 int	main(int argc, char *argv[])
-{	
+{
 	int	decimal;
 	int	count;
 	int	*binary;
@@ -73,7 +73,7 @@ int	main(int argc, char *argv[])
 	if (argc != 3)
 		return (0);
 	while (argv[2][i])
-	{	
+	{
 		decimal = argv[2][i];
 		count = count_numbers(decimal);
 		binary = to_binary(decimal);

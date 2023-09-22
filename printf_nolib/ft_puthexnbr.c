@@ -6,7 +6,7 @@
 /*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/21 17:11:47 by carmoren          #+#    #+#             */
-/*   Updated: 2023/09/21 17:11:48 by carmoren         ###   ########.fr       */
+/*   Updated: 2023/09/22 13:50:04 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 #include <stdlib.h>
 
 static size_t	ft_num_len(unsigned long number)
-{	
+{
 	size_t	len;
 
 	len = 1;
@@ -27,7 +27,7 @@ static size_t	ft_num_len(unsigned long number)
 	return (len);
 }
 
-size_t	ft_puthexnbr(unsigned int n, char *base)
+size_t	ft_puthex(unsigned int n, char *base)
 {
 	unsigned long	number;
 	size_t			count;	

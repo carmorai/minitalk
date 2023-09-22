@@ -6,7 +6,7 @@
 /*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/21 17:03:44 by carmoren          #+#    #+#             */
-/*   Updated: 2023/09/21 17:03:53 by carmoren         ###   ########.fr       */
+/*   Updated: 2023/09/22 11:10:19 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,16 +15,16 @@
 #include <unistd.h>
 
 void	process_bits(int signal)
-{	
+{
 	static unsigned char	character;
 	static int				bit_count;
 
 	if (signal == SIGUSR1)
-	{	
+	{
 		character = (character << 1) | 0;
 	}
 	else if (signal == SIGUSR2)
-	{	
+	{
 		character = (character << 1) | 1;
 	}
 	bit_count++;
@@ -37,7 +37,7 @@ void	process_bits(int signal)
 }
 
 int	main(void)
-{	
+{
 	struct sigaction	sa;
 	sigset_t			sigset;
 

@@ -6,7 +6,7 @@
 /*   By: carmoren <carmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/21 17:05:52 by carmoren          #+#    #+#             */
-/*   Updated: 2023/09/21 17:24:07 by carmoren         ###   ########.fr       */
+/*   Updated: 2023/09/22 12:58:29 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ static int	ft_number_count(long n)
 }
 
 void	ft_reverse(char *str, int len)
-{	
+{
 	int		low;
 	char	swap;
 
